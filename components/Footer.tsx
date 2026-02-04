@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center md:items-start gap-4">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center font-bold text-lg text-white">
-              U
+              AI
             </div>
-            <span className="font-bold text-lg tracking-tight text-slate-100">Username</span>
+            <span className="font-bold text-lg tracking-tight text-slate-100">Ai portfolio</span>
           </div>
           <p className="text-slate-500 text-sm max-w-xs text-center md:text-left">
             Crafting digital experiences with precision and creativity. Available for select freelance projects.
@@ -30,12 +30,9 @@ const Footer: React.FC = () => {
             <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-sky-400 transition-colors text-xl">
               <i className="fa-brands fa-twitter"></i>
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-pink-400 transition-colors text-xl">
-              <i className="fa-brands fa-instagram"></i>
-            </a>
           </div>
           <p className="text-slate-600 text-xs">
-            &copy; {currentYear} Username. All rights reserved.
+            &copy; {currentYear} Codex. All rights reserved.
           </p>
         </div>
 

@@ -6,7 +6,7 @@ const AIChatAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState<{ role: 'user' | 'assistant'; text: string }[]>([
-    { role: 'assistant', text: "Hi! I'm Username's AI assistant. Ask me anything about their projects or experience!" }
+    { role: 'assistant', text: "Hi! I'm Codex's AI assistant. Ask me anything about their projects or experience!" }
   ]);
   const [isLoading, setIsLoading] = useState(false);
   const chatEndRef = useRef<HTMLDivElement>(null);
@@ -44,7 +44,7 @@ const AIChatAssistant: React.FC = () => {
                 <i className="fas fa-robot text-white text-sm"></i>
               </div>
               <div>
-                <p className="text-white font-bold text-sm">Username's Assistant</p>
+                <p className="text-white font-bold text-sm">Codex's Assistant</p>
                 <div className="flex items-center gap-1.5">
                   <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
                   <span className="text-[10px] text-indigo-100 uppercase font-bold">Online</span>

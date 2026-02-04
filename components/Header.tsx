@@ -28,9 +28,9 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
     <nav className="fixed top-0 left-0 right-0 z-50 glass-morphism py-4 px-6 md:px-12 flex justify-between items-center transition-all duration-300">
       <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
         <div className="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center font-bold text-xl text-white shadow-lg shadow-indigo-500/30">
-          U
+          AI
         </div>
-        <span className="hidden sm:inline font-bold text-xl tracking-tight text-slate-100">Username</span>
+        <span className="hidden sm:inline font-bold text-xl tracking-tight text-slate-100">Ai portfolio</span>
       </div>
 
       {/* Desktop Menu */}

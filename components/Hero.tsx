@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-lg md:text-2xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-          Hi, I'm <span className="text-slate-100 font-semibold">Username</span>. 
+          Hi, I'm <span className="text-slate-100 font-semibold">Codex</span>. 
           A full-stack engineer dedicated to crafting high-performance web applications and 
           integrating intelligent AI solutions.
         </p>

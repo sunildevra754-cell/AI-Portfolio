@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <div className="absolute -inset-4 bg-gradient-to-tr from-indigo-600 to-blue-500 rounded-3xl opacity-20 group-hover:opacity-30 transition-opacity blur-xl"></div>
           <img 
             src="https://picsum.photos/seed/alex/600/600" 
-            alt="Username" 
+            alt="Codex" 
             className="relative z-10 rounded-2xl w-full aspect-square object-cover shadow-2xl grayscale hover:grayscale-0 transition-all duration-500"
           />
           <div className="absolute bottom-6 left-6 z-20 bg-slate-900/90 backdrop-blur-md border border-slate-700 p-4 rounded-xl shadow-lg">
